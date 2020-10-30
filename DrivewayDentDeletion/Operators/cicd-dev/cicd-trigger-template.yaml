@@ -30,8 +30,8 @@ spec:
           serviceAccountName: cicd-ace-sa
         - taskName: deploy-wait-ace-chris
           serviceAccountName: cicd-ace-sa
-        - taskName: deploy-wait-ace-acme
-          serviceAccountName: cicd-ace-sa
+        # - taskName: deploy-wait-ace-acme
+        #   serviceAccountName: cicd-ace-sa
         - taskName: deploy-wait-ace-bernie
           serviceAccountName: cicd-ace-sa
       workspaces:
