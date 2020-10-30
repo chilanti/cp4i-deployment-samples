@@ -602,8 +602,8 @@ spec:
       serviceAccountNames:
         - taskName: ace-api-build
           serviceAccountName: cicd-ace-sa
-        - taskName: ace-acme-build
-          serviceAccountName: cicd-ace-sa
+        # - taskName: ace-acme-build
+        #   serviceAccountName: cicd-ace-sa
         - taskName: ace-bernie-build
           serviceAccountName: cicd-ace-sa
         - taskName: ace-chris-build
