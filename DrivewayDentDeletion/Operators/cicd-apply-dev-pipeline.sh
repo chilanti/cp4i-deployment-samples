@@ -30,7 +30,7 @@ function usage() {
 # default vars
 namespace="cp4i"
 branch="main"
-repo="https://github.com/IBM/cp4i-deployment-samples.git"
+repo="https://github.com/chilanti/cp4i-deployment-samples.git"
 tick="\xE2\x9C\x85"
 cross="\xE2\x9D\x8C"
 all_done="\xF0\x9F\x92\xAF"
@@ -62,14 +62,14 @@ if ! oc project $namespace >/dev/null 2>&1 ; then
   exit 1
 fi
 
-if ! oc project $namespace-ddd-test >/dev/null 2>&1 ; then
-  echo "ERROR: The test namespace '$namespace-ddd-test' does not exist"
-  exit 1
-fi
+# if ! oc project $namespace-ddd-test >/dev/null 2>&1 ; then
+#   echo "ERROR: The test namespace '$namespace-ddd-test' does not exist"
+#   exit 1
+# fi
 
 echo "INFO: Namespace: $namespace"
 echo "INFO: Dev Namespace: $namespace"
-echo "INFO: Test Namespace: $namespace-ddd-test"
+# echo "INFO: Test Namespace: $namespace-ddd-test"
 echo "INFO: Branch: $branch"
 echo "INFO: Repo: $repo"
 
