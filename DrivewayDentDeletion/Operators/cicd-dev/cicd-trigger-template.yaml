@@ -22,16 +22,16 @@ spec:
           serviceAccountName: cicd-ace-sa
         - taskName: build-ace-int-server-ace-bernie
           serviceAccountName: cicd-ace-sa
-        - taskName: build-ace-int-server-ace-acme
-          serviceAccountName: cicd-ace-sa
+        # - taskName: build-ace-int-server-ace-acme
+        #   serviceAccountName: cicd-ace-sa
         - taskName: build-ace-int-server-ace-chris
           serviceAccountName: cicd-ace-sa
         - taskName: deploy-wait-ace-api
           serviceAccountName: cicd-ace-sa
         - taskName: deploy-wait-ace-chris
           serviceAccountName: cicd-ace-sa
-        - taskName: deploy-wait-ace-acme
-          serviceAccountName: cicd-ace-sa
+        # - taskName: deploy-wait-ace-acme
+        #   serviceAccountName: cicd-ace-sa
         - taskName: deploy-wait-ace-bernie
           serviceAccountName: cicd-ace-sa
       workspaces:
